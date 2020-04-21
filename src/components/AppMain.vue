@@ -7,9 +7,6 @@
 
 <script>
 import AppLink from "./Line.vue";
-import "../lib/webgl-utils";
-import "../lib/webgl-debug";
-import "../lib/cuon-utils";
 export default {
   components: {
     AppLink

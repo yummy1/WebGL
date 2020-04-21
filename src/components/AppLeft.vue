@@ -27,7 +27,7 @@
       }
     },
     created() {
-      
+
     },
     methods: {
 
@@ -36,5 +36,7 @@
 </script>
 
 <style scoped>
-    
+    .el-menu-vertical-demo {
+        border: none;
+    }
 </style>

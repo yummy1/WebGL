@@ -23,7 +23,7 @@ module.exports = {
                     loader: 'vue-loader'
                 }]
             },
-            {   test: /\.(eot|woff|ttf)$/, 
+            {   test: /\.(eot|woff|ttf)$/,
                 use: [{
                     loader: 'file-loader'
                 }]
@@ -87,6 +87,12 @@ module.exports = {
             }
         ])
     ],
+    // resolve: {
+    //     extensions: ['.js'],
+    //     alias: {
+    //         components: path.join(__dirname, "src/lib")
+    //     }
+    // },
     devServer: {
         //设置服务器访问的基本目录
         contentBase: path.resolve(__dirname, 'dist'),
